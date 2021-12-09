@@ -1,0 +1,22 @@
+
+.card {
+    text-align: left;
+    max-width: 500px;
+    margin: 5px 0;
+    width: 300px;
+    
+    p {
+        margin-bottom: 0;
+    }
+    
+    span {
+        text-align: center;
+    }
+    
+    .price {
+        font-size: 1.3rem;
+    }
+    .text-mute {
+        color: #c6c6c6;
+    }
+}

@@ -1,0 +1,25 @@
+
+.block_list_menu {
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  display: flex; 
+  height: 100vh;
+  width: 100%;
+
+  .list_menu {
+    padding: 10px;
+    max-height: 300px;
+    overflow: overlay;
+
+    .blog_list {
+      border:1px solid #eee;
+      padding: 8px 40px;
+      margin: 2px;
+    }
+  }
+
+  .detail_menu {
+    margin-left: 10px;
+  }
+}
